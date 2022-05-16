@@ -1,0 +1,7 @@
+project: polkadot
+target: xcm-fuzzer
+
+image: ghcr.io/nottirb/polkadot:latest
+
+cmds:
+    - cmd: /xcm-fuzzer

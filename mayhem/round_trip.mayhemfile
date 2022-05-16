@@ -1,0 +1,7 @@
+project: polkadot
+target: round_trip
+
+image: ghcr.io/nottirb/polkadot:latest
+
+cmds:
+    - cmd: /round_trip
